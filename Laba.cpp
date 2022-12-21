@@ -56,7 +56,8 @@ public:
 class BookShop
 {
 public:
-    Book books[100];
+    const static int max_size_of_bookshop = 100;
+    Book books[max_size_of_bookshop];
 
     void PriceTop()
     {
